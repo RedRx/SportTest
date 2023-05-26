@@ -55,8 +55,8 @@ const Content: React.FC<ContentProps> = ({
               width! > 768
                 ? (hoverImage?.src as string)
                 : width! > 500
-                ? (hoverImage?.srcOptional as string)
-                : (hoverImage?.srcOptional2 as string)
+                  ? (hoverImage?.srcOptional as string)
+                  : (hoverImage?.srcOptional2 as string)
             }
             width={hoverImage?.width as string}
             height={hoverImage?.height as string}
@@ -267,7 +267,7 @@ const Content: React.FC<ContentProps> = ({
                   <LineHighlight />
                   COLLABORATION
                 </ParagraphHeader>
-                <DetailParagraph>{detailParagraphTop}</DetailParagraph>
+                <DetailParagraph>{detailParagraphCenter}</DetailParagraph>
               </MobileContainerSlider>
             </SwiperSlide>
             <SwiperSlide>
@@ -278,7 +278,7 @@ const Content: React.FC<ContentProps> = ({
                   GROWTH UP
                   {/* <span style={{ color: '#f5f4f9' }}>***</span> */}
                 </ParagraphHeader>
-                <DetailParagraph>{detailParagraphTop}</DetailParagraph>
+                <DetailParagraph>{detailParagraphBottom}</DetailParagraph>
               </MobileContainerSlider>
             </SwiperSlide>
           </Swiper>
