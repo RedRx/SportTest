@@ -1,7 +1,6 @@
 "use client";
-import { LineWeight } from "@mui/icons-material";
 import { styled as styles } from "@stitches/react";
-import { styled } from "styled-components";
+import styled from "styled-components";
 
 export const Container = styles("section", {
   display: "flex",
