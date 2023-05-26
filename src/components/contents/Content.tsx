@@ -260,7 +260,6 @@ const Content: React.FC<ContentProps> = ({
                 <DetailParagraph>{detailParagraphTop}</DetailParagraph>
               </MobileContainerSlider>
             </SwiperSlide>
-
             <SwiperSlide>
               <MobileContainerSlider>
                 <ParagraphHeader>
@@ -271,7 +270,6 @@ const Content: React.FC<ContentProps> = ({
                 <DetailParagraph>{detailParagraphTop}</DetailParagraph>
               </MobileContainerSlider>
             </SwiperSlide>
-
             <SwiperSlide>
               <MobileContainerSlider>
                 <ParagraphHeader>
