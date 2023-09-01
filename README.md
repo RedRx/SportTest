@@ -1,9 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# IMPORTANT!
-
-### I think about this test, I can success in less than 1 day but now I used 2 days because I'm see this test is about Sports Website. I think if we create Sports Website, We will have more sports to presentation in our app, so I have created a reusable component of dynamic UI, contents and image to be more easy and flexibility reusable to others Sports in our production website.
-
 ## Getting Started
 
 First, run the development server:
